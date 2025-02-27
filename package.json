@@ -3,17 +3,32 @@
     "@langchain/core": "^0.3.40",
     "@langchain/deepseek": "^0.0.1",
     "@langchain/langgraph": "^0.2.49",
+    "@langchain/langgraph-checkpoint": "^0.0.15",
+    "@langchain/langgraph-cli": "^0.0.13",
     "@langchain/openai": "^0.4.4",
     "@types/node": "^22.13.5",
+    "dotenv": "^16.4.7",
     "ts-node": "^10.9.2",
     "typescript": "^5.7.3"
+  },
+  "resolutions": {
+    "@langchain/core": "^0.3.40"
+  },
+  "overrides": {
+    "@langchain/core": "^0.3.40"
+  },
+  "pnpm": {
+    "overrides": {
+      "@langchain/core": "^0.3.40"
+    }
   },
   "name": "langgraph-exploration",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "ts-node ./src/first.ts",
+    "langgraph:dev": "langgraphjs dev"
   },
   "author": "",
   "license": "ISC"

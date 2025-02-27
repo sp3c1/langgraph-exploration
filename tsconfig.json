@@ -8,6 +8,7 @@
     "experimentalDecorators": true,
     "allowSyntheticDefaultImports": true,
     "sourceMap": true,
+    "sourceRoot": "./src",
     "outDir": "./dist",
     "baseUrl": "./",
     "incremental": true,

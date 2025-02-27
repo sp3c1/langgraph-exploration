@@ -1,0 +1,12 @@
+{
+    "other": {
+        "graph": "./src/graph.ts:makeGraph",
+        "first": "./src/first.ts:graph"
+    },
+    "graphs":{
+        "graph": "./src/graph.ts:makeGraph"
+    },
+    "node_version":"20",
+    "env": ".env",
+    "dockerfile_lines": []
+}
